@@ -32,7 +32,7 @@ const Service = () => {
                     <strong>exceptional </strong>
                     experience <strong>every time</strong>.”
                   </div>
-                  <Link href='/services'>
+                  <Link to='/services'>
                     <button class='button is-warning'>Learn more!</button>
                   </Link>
                 </div>

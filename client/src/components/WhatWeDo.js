@@ -32,7 +32,7 @@ const WhatWeDo = () => {
                   <figure className='image is-square'>
                     <img src='/assets/images/demo13.JPG' />
                   </figure>
-                  <Link href='/about'>
+                  <Link to='/about'>
                     <button class='button is-primary'>Learn more!</button>
                   </Link>
                 </div>

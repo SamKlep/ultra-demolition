@@ -41,7 +41,7 @@ const AboutUs = () => {
                       alt='bulldozer'
                     />
                   </figure>
-                  <Link href='/about'>
+                  <Link to='/about'>
                     <button class='button is-primary'>Learn more!</button>
                   </Link>
                 </div>
