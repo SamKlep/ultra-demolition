@@ -17,15 +17,15 @@ function App() {
     <Router>
       <NavBar />
       <Switch>
-        <Route exact path='/' render={() => <div>Home</div>} />
+        <Route exact path='/' render={() => <Home />} />
 
-        <Route path='/about' render={() => <div>About</div>} />
+        <Route path='/about' render={() => <About />} />
 
-        <Route path='/contact' render={() => <div>Contact</div>} />
+        <Route path='/contact' render={() => <Contact />} />
 
-        <Route path='/projects' render={() => <div>Projects</div>} />
+        <Route path='/projects' render={() => <Projects />} />
 
-        <Route path='/services' render={() => <div>Services</div>} />
+        <Route path='/services' render={() => <Services />} />
 
         <Route component={Error404} />
       </Switch>
