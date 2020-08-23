@@ -1,7 +1,7 @@
 {
-  "name": "contact-keeper",
+  "name": "Ultra Demolition",
   "version": "1.0.0",
-  "description": "Contact manager app",
+  "description": "Demolition Company",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

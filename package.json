@@ -1,7 +1,7 @@
 {
-  "name": "contact-keeper",
+  "name": "Ultra Demolition",
   "version": "1.0.0",
-  "description": "Contact manager app",
+  "description": "Demolition Company",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -12,7 +12,7 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "Samuel B. Klepper",
-  "license": "ISC",
+  "license": "SBK",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "chalk": "^3.0.0",
