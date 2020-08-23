@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Link,
-  Switch,
-  HashRouter,
-  Link,
-} from "react-router-dom";
+import { BrowserRouter as Link, Switch, HashRouter } from "react-router-dom";
 import "./App.css";
 
 import NavBar from "./components/NavBar";
