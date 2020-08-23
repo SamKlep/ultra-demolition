@@ -18,19 +18,19 @@ export const NavBar = () => {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='mr-auto'>
-            <Nav.Link className='nav-link' to='/'>
+            <Nav.Link className='nav-link'>
               <Link to='/'>Home</Link>
             </Nav.Link>
 
-            <Nav.Link to='/about'>
+            <Nav.Link>
               <Link to='/about'>About</Link>
             </Nav.Link>
 
-            <Nav.Link to='/services'>
+            <Nav.Link>
               <Link to='/services'>Services</Link>
             </Nav.Link>
 
-            <Nav.Link to='/contact'>
+            <Nav.Link>
               <Link to='/contact'>Contact </Link>
             </Nav.Link>
           </Nav>
