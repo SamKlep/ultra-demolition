@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Route,
+  Switch,
+  HashRouter,
+  Link,
+} from "react-router-dom";
 import "./App.css";
 
 import NavBar from "./components/NavBar";
@@ -14,23 +19,19 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <NavBar />
       <Switch>
-        <Route exact path='/' component={Home} />
-
-        <Route path='/about' component={About} />
-
+        <Link exact path='/' component={Home} />
+        <Link path='/about' component={About} />
+        Link
         <Route path='/contact' component={Contact} />
-
-        <Route path='/projects' component={Projects} />
-
-        <Route path='/services' component={Services} />
-
-        <Route component={Error404} />
+        <Link path='/projects' component={Projects} />
+        <Link path='/services' component={Services} />
+        <Link component={Error404} />
       </Switch>
       <Footer />
-    </Router>
+    </HashRouter>
   );
 }
 
