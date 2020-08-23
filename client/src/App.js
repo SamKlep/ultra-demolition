@@ -20,17 +20,17 @@ function App() {
         <Route exact path='/'>
           <Home />
         </Route>
-        <Route path='/about'>
+        <Route to='/about'>
           <About />
         </Route>
-        <Route path='/contact'>
+        <Route to='/contact'>
           <Contact />
         </Route>
 
-        <Route path='/projects'>
+        <Route to='/projects'>
           <Projects />
         </Route>
-        <Route path='/services'>
+        <Route to='/services'>
           <Services />
         </Route>
         <Route component={Error404} />
