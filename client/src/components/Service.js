@@ -23,26 +23,40 @@ const Service = () => {
                     <div className='container'>
                       <div className='container'>
                         <div className='container'>
-                          <div class='card'>
-                            <div class='card-image'>
-                              <figure class='image is-4by3'>
-                                <img
-                                  src='/assets/images/demo16.JPG'
-                                  alt='Placeholder image'
-                                />
-                              </figure>
-                            </div>
-                            <div class='card-content'>
-                              <div class='content text-center'>
-                                “Always dedicated and devoted to providing an{" "}
-                                <strong>exceptional </strong>
-                                experience <strong>every time</strong>.”
+                          <div className='container'>
+                            <div className='container'>
+                              <div className='container'>
+                                <div className='container'>
+                                  <div className='container'>
+                                    <div className='container'>
+                                      <div class='card'>
+                                        <div class='card-image'>
+                                          <figure class='image is-4by3'>
+                                            <img
+                                              src='/assets/images/demo16.JPG'
+                                              alt='Placeholder image'
+                                            />
+                                          </figure>
+                                        </div>
+                                        <div class='card-content'>
+                                          <div class='content text-center'>
+                                            “Always dedicated and devoted to
+                                            providing an{" "}
+                                            <strong>exceptional </strong>
+                                            experience{" "}
+                                            <strong>every time</strong>.”
+                                          </div>
+                                          <Link to='/services'>
+                                            <button class='button is-warning'>
+                                              Learn more!
+                                            </button>
+                                          </Link>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
-                              <Link to='/services'>
-                                <button class='button is-warning'>
-                                  Learn more!
-                                </button>
-                              </Link>
                             </div>
                           </div>
                         </div>
