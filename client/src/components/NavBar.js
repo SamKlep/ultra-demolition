@@ -6,24 +6,28 @@ export const NavBar = () => {
   return (
     <div>
       <Navbar id='navBar' expand='lg'>
-        <Navbar.Brand to='/'>
-          <img
-            className='nav-logo'
-            src='/assets/images/logo-nobg.png'
-            alt='ultra demolition logo'
-          />
-        </Navbar.Brand>
+        <Link to='/'>
+          <Navbar.Brand to='/'>
+            <img
+              className='nav-logo'
+              src='/assets/images/logo-nobg.png'
+              alt='ultra demolition logo'
+            />
+          </Navbar.Brand>
+        </Link>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='mr-auto'>
             <Nav.Link className='nav-link' to='/'>
               Home
             </Nav.Link>
-            <Nav.Link to='/about'>About</Nav.Link>
-
+            <Link to='/about'>
+              <Nav.Link to='/about'>About</Nav.Link>
+            </Link>
             <Nav.Link to='/services'>Services</Nav.Link>
-
-            <Nav.Link to='/contact'>Contact</Nav.Link>
+            <Link to='/contact'>
+              <Nav.Link to='/contact'>Contact</Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Collapse className='justify-content-end'>
