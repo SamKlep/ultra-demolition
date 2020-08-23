@@ -12,52 +12,66 @@ const About = () => {
           </div>
         </div>
       </section>
-
-      <div className='container-fluid'>
+      <div className='container'>
         <div className='container'>
-          <Animated
-            animationIn='bounceInRight'
-            animationOut='fadeOut'
-            isVisible={true}
-          >
-            <section class='section'>
-              <div class='container'>
-                <h1 class='title text-center'>
-                  Ultra Demolition is a company that takes pride in our work.
-                </h1>
-                <br />
-                <h2 class='about-text-main text-center'>
-                  We are committed to supplying superior results and are always
-                  dedicated and devoted to provide an exceptional experience
-                  every time.
-                </h2>
-              </div>
-            </section>
+          <div className='container'>
+            <div className='container'>
+              <div className='container'>
+                <div className='container'>
+                  <div className='container-fluid'>
+                    <div className='container'>
+                      <Animated
+                        animationIn='bounceInRight'
+                        animationOut='fadeOut'
+                        isVisible={true}
+                      >
+                        <section class='section'>
+                          <div class='container'>
+                            <h1 class='title text-center'>
+                              Ultra Demolition is a company that takes pride in
+                              our work.
+                            </h1>
+                            <br />
+                            <h2 class='about-text-main text-center'>
+                              We are committed to supplying superior results and
+                              are always dedicated and devoted to provide an
+                              exceptional experience every time.
+                            </h2>
+                          </div>
+                        </section>
 
-            <section class='hero is-dark is-fullheight'>
-              <div class='hero-body'>
-                <div class='container'>
-                  <h1 class='title text-center'></h1>
-                  <h2 class='about-text-main text-center'>
-                    On all of our projects, Ultra Demolition performs all the
-                    demolition work with our own workforce. We employ only the
-                    highest of skilled experts whom are versed in all aspects of
-                    the demolition industry. Each and every member of our staff
-                    are thoroughly trained in the most current health and safety
-                    standards.
-                  </h2>
-                  <div>
-                    <br />
-                    <figure class='image is-square'>
-                      <img src='/assets/images/demo11.JPG' />
-                    </figure>
+                        <section class='hero is-dark is-fullheight'>
+                          <div class='hero-body'>
+                            <div class='container'>
+                              <h1 class='title text-center'></h1>
+                              <h2 class='about-text-main text-center'>
+                                On all of our projects, Ultra Demolition
+                                performs all the demolition work with our own
+                                workforce. We employ only the highest of skilled
+                                experts whom are versed in all aspects of the
+                                demolition industry. Each and every member of
+                                our staff are thoroughly trained in the most
+                                current health and safety standards.
+                              </h2>
+                              <div>
+                                <br />
+                                <figure class='image is-square'>
+                                  <img src='/assets/images/demo11.JPG' />
+                                </figure>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </Animated>
+                    </div>
                   </div>
                 </div>
               </div>
-            </section>
-          </Animated>
+            </div>
+          </div>
         </div>
       </div>
+
       <br />
       <hr />
       <hr />
