@@ -6,7 +6,7 @@ export const NavBar = () => {
   return (
     <div>
       <Navbar id='navBar' expand='lg'>
-        <Navbar.Brand href='/'>
+        <Navbar.Brand to='/'>
           <img
             className='nav-logo'
             src='/assets/images/logo-nobg.png'
@@ -16,14 +16,14 @@ export const NavBar = () => {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='mr-auto'>
-            <Nav.Link className='nav-link' href='/'>
+            <Nav.Link className='nav-link' to='/'>
               Home
             </Nav.Link>
-            <Nav.Link href='/about'>About</Nav.Link>
+            <Nav.Link to='/about'>About</Nav.Link>
 
-            <Nav.Link href='/services'>Services</Nav.Link>
+            <Nav.Link to='/services'>Services</Nav.Link>
 
-            <Nav.Link href='/contact'>Contact</Nav.Link>
+            <Nav.Link to='/contact'>Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Collapse className='justify-content-end'>
