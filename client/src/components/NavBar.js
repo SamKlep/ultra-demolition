@@ -19,15 +19,18 @@ export const NavBar = () => {
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='mr-auto'>
             <Nav.Link className='nav-link' to='/'>
-              Home
+              <Link to='/'>Home</Link>
             </Nav.Link>
-            <Link to='/about'>
-              <Nav.Link to='/about'>About</Nav.Link>
-            </Link>
+
+            <Nav.Link to='/about'>
+              <Link to='/about'>About</Link>
+            </Nav.Link>
+
             <Nav.Link to='/services'>Services</Nav.Link>
-            <Link to='/contact'>
-              <Nav.Link to='/contact'>Contact</Nav.Link>
-            </Link>
+
+            <Nav.Link to='/contact'>
+              <Link to='/contact'>Contact </Link>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Collapse className='justify-content-end'>
