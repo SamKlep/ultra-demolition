@@ -13,38 +13,50 @@ const Service = () => {
         </div>
       </section>
       <Animated animationIn='tada' animationOut='fadeOut' isVisible={true}>
-        <section class='hero is-medium  is-bold'>
-          <div class='hero-body'>
-            <div class='container'>
-              <div class='container'>
-                <div class='container'>
-                  <h1 class='title text-center'></h1>
-                  <h2 class='subtitle text-center'></h2>
-                  <div>
-                    <br />
-                    <div class='card'>
-                      <div class='card-image'>
-                        <figure class='image is-4by3'>
-                          <img
-                            src='/assets/images/demo16.JPG'
-                            alt='Placeholder image'
-                          />
-                        </figure>
-                      </div>
-                      <div class='card-content'>
-                        <div class='content text-center'>
-                          “Always dedicated and devoted to providing an{" "}
-                          <strong>exceptional </strong>
-                          experience <strong>every time</strong>.”
+        <div className='container'>
+          <div className='container'>
+            <div className='container'>
+              <div className='container'>
+                <div className='container'>
+                  <div className='container'>
+                    <section class='hero is-medium  is-bold'>
+                      <div class='hero-body'>
+                        <div class='container'>
+                          <div class='container'>
+                            <div class='container'>
+                              <h1 class='title text-center'></h1>
+                              <h2 class='subtitle text-center'></h2>
+                              <div>
+                                <br />
+                                <div class='card'>
+                                  <div class='card-image'>
+                                    <figure class='image is-4by3'>
+                                      <img
+                                        src='/assets/images/demo16.JPG'
+                                        alt='Placeholder image'
+                                      />
+                                    </figure>
+                                  </div>
+                                  <div class='card-content'>
+                                    <div class='content text-center'>
+                                      “Always dedicated and devoted to providing
+                                      an <strong>exceptional </strong>
+                                      experience <strong>every time</strong>.”
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
+                    </section>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </Animated>
       <section class='hero is-primary'>
         <div class='hero-body'>
