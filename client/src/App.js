@@ -17,15 +17,15 @@ function App() {
     <Router>
       <NavBar />
       <Switch>
-        <Route exact path='/' component={Home} />
+        <Route exact path='/' render={() => <div>Home</div>} />
 
-        <Route path='/about' component={About} />
+        <Route path='/about' render={() => <div>About</div>} />
 
-        <Route path='/contact' component={Contact} />
+        <Route path='/contact' render={() => <div>Contact</div>} />
 
-        <Route path='/projects' component={Projects} />
+        <Route path='/projects' render={() => <div>Projects</div>} />
 
-        <Route path='/services' component={Services} />
+        <Route path='/services' render={() => <div>Services</div>} />
 
         <Route component={Error404} />
       </Switch>
