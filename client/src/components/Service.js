@@ -48,15 +48,16 @@ const Service = () => {
                         </div>
                       </div>
                     </div>
-                  </section>
-                  <h1></h1>
-                  <p></p>
+
+                    <h1></h1>
+                    <p></p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 };
