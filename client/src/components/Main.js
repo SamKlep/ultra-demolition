@@ -42,7 +42,7 @@ const Main = () => {
           <Carousel.Item>
             <img
               className='d-block w-100 carousel-image'
-              src='/assets/images/demo17.jpg'
+              src='/assets/images/demo16.JPG'
               alt='Third slide'
             />
           </Carousel.Item>
@@ -70,7 +70,7 @@ const Main = () => {
           <Carousel.Item>
             <img
               className='d-block w-100 carousel-image'
-              src='/assets/images/demo1.jpg'
+              src='/assets/images/dirt3.JPG'
               alt='Third slide'
             />
           </Carousel.Item>

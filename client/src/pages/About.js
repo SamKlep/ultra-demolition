@@ -49,7 +49,7 @@ const About = () => {
                   <div>
                     <br />
                     <figure class='image is-square'>
-                      <img src='/assets/images/truck1.jpg' />
+                      <img src='/assets/images/demo11.JPG' />
                     </figure>
                   </div>
                 </div>
