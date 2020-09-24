@@ -4,9 +4,7 @@
   font-family: 'Do Hyeon', sans-serif;
 }
 
-
 /* Navigation */
-
 
 #navBar {
   background-color: rgb(255, 197, 6);
@@ -49,8 +47,6 @@
   color: white;
 }
 
-
-
 .footer-container {
   padding-top: 20px;
   display: flexbox;
@@ -69,12 +65,11 @@
 }
 
 .footer-contact {
-  display: flex; 
+  display: flex;
   justify-content: center;
 }
 
 /* carousel */
-
 
 /* Main */
 
@@ -89,7 +84,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
 .main {
@@ -109,59 +103,53 @@
   font-size: 1.4em;
 }
 
-
 .image-container {
   background-image: url('/assets/images/demo3-main.png');
   height: 450px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: .5;
+  opacity: 0.5;
 }
 
-
 /* About Us */
- 
 
 .grid-image-one {
   background-image: url('/assets/images/demo15-small.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: .5;
+  opacity: 0.5;
 }
 .grid-image-two {
-background-image: url('/assets/images/demo18.JPG');
-background-position: center;
+  background-image: url('/assets/images/demo18.JPG');
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 .grid-image-three {
-background-image: url('/assets/images/house2-small.jpg');
-background-position: center;
+  background-image: url('/assets/images/house2-small.jpg');
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: .5;
-  
+  opacity: 0.5;
 }
 .grid-image-four {
-background-image: url('/assets/images/dirt2.jpg');
-background-position: center;
+  background-image: url('/assets/images/dirt2.jpg');
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
-  
 }
-
-
-
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
     max-width: 50%;
+  }
+
+  .carousel-image {
+    height: 500px;
   }
 }
 
@@ -170,6 +158,10 @@ background-position: center;
   .column {
     flex: 100%;
     max-width: 100%;
+  }
+
+  .carousel-image {
+    height: 300px;
   }
 }
 
@@ -185,11 +177,8 @@ background-position: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: .5;
+  opacity: 0.5;
 }
-
-
-
 
 /* About */
 
@@ -203,7 +192,7 @@ background-position: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 /* services */
@@ -214,6 +203,5 @@ background-position: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: .5;
+  opacity: 0.5;
 }
-
