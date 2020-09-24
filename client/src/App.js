@@ -1,15 +1,15 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import "./App.css";
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import './App.css';
 
-import NavBar from "./components/NavBar";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
+import NavBar from './components/NavBar';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
-import Services from "./pages/Services";
-import Error404 from "./pages/Error404";
-import Footer from "./components/Footer";
+import Services from './pages/Services';
+import Error404 from './pages/Error404';
+import Footer from './components/Footer';
 
 function App() {
   return (
