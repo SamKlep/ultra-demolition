@@ -1,6 +1,6 @@
-import React from "react";
-import { Carousel } from "react-bootstrap";
-import { Animated } from "react-animated-css";
+import React from 'react';
+import { Carousel } from 'react-bootstrap';
+import { Animated } from 'react-animated-css';
 
 const Main = () => {
   return (
@@ -10,7 +10,7 @@ const Main = () => {
           <div className='container'>
             <div className='container'>
               <div className='container'>
-                <div className='container'>
+                <div className='container carousel-container'>
                   <Animated
                     animationIn='bounceInLeft'
                     animationOut='fadeOut'

@@ -95,9 +95,13 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.carousel {
+  width: 600px;
+  margin: auto;
+}
+
 .carousel-image {
-  height: 600px;
-  width: 200px;
+  height: 500px;
 }
 
 .about-text-main {
@@ -152,6 +156,41 @@
   .carousel-image {
     height: 400px;
   }
+
+  .carousel {
+    margin: auto;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+  .carousel-image {
+    height: 400px;
+  }
+
+  .carousel {
+    margin: auto;
+  }
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 780px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .carousel-image {
+    height: 300px;
+  }
+
+  .carousel {
+    width: 80%;
+  }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -163,6 +202,10 @@
 
   .carousel-image {
     height: 300px;
+  }
+
+  .carousel {
+    width: 65%;
   }
 }
 
@@ -187,9 +230,15 @@
   justify-content: center;
 }
 
+.about-image {
+  height: 600px;
+  width: 600px;
+  margin: auto;
+}
+
 .about-banner {
   background-image: url('/assets/images/machine2.JPG');
-  height: 450px;
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

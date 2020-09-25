@@ -1,6 +1,6 @@
-import React from "react";
-import { Animated } from "react-animated-css";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Animated } from 'react-animated-css';
+import { Link } from 'react-router-dom';
 
 const AboutUs = () => {
   return (
@@ -42,13 +42,13 @@ const AboutUs = () => {
                             </p>
                             <div>
                               <br />
-                              <figure class='image is-square'>
-                                <img
-                                  className='about-image'
-                                  src='/assets/images/machine1.jpg'
-                                  alt='bulldozer'
-                                />
-                              </figure>
+
+                              <img
+                                className='about-image'
+                                src='/assets/images/machine1.jpg'
+                                alt='bulldozer'
+                              />
+
                               <Link to='/about'>
                                 <button class='button is-primary'>
                                   Learn more!
