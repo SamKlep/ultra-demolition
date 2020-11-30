@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
-import Main from "../components/Main";
-import AboutUs from "../components/AboutUs";
-import WhatWeDo from "../components/WhatWeDo";
-import Service from "../components/Service";
+import Main from '../components/home/Main'
+import AboutUs from '../components/AboutUs'
+import WhatWeDo from '../components/WhatWeDo'
+import Service from '../components/Service'
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
       <WhatWeDo />
       <Service />
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
